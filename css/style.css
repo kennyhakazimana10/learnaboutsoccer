@@ -37,6 +37,13 @@ p {
     padding: 15px;
 }
 
+#page-footer a {
+    color: yellow;            
+    font-weight: bold;        
+    text-decoration: underline; 
+}
+
+
 #page-footer {
     background: #333;
     color: white;
