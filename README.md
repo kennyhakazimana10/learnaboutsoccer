@@ -13,3 +13,5 @@ This repo is about learning the basics of soccer.
 - High color contrast for readability  
 - Responsive design with media query for smaller screens  
 - Flexbox layout for structured content  
+
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/025c8cb5-8e66-4b8a-b5ce-a708cb4fad96" />
