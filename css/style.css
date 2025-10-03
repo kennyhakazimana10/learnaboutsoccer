@@ -1,61 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 1rem; /* Bootstrap handles scaling */
-    margin: 0;
-    padding: 0;
-    background-color: #fff8b0; /* light yellow background */
+    background-color: #fff8b0; /* light yellow */
 }
 
 /* Headings */
 h1, h2, h3 {
-    text-align: center;
     color: darkblue;
 }
 
 /* Paragraphs */
 p {
-    margin: 0.5rem 0;
-    line-height: 1.6;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
 }
 
-/* === Highlight class === */
+/* Highlight text */
 .highlight {
-    color: #d35400; /* orange highlight */
+    color: #d35400; /* orange */
     font-weight: bold;
 }
 
-/* === Info box cards === */
+/* Info boxes - slight customization over Bootstrap cards */
 .info-box {
-    /* Bootstrap cards handle most styling, add only unique tweaks */
-    background-color: #ffffff; 
-    border-radius: 0.5rem; /* rounded corners */
+    background-color: #ffffff;
+    border-radius: 0.5rem;
 }
 
-/* === Footer link styling === */
+/* Footer links */
 #page-footer a {
-    font-weight: bold;
     text-decoration: none;
+    font-weight: bold;
 }
 
-/* Footer container */
-#page-footer {
-    background-color: #333;
-    color: white;
-}
-
-/* Optional: hover effect on footer buttons */
+/* Hover effect on footer buttons */
 #page-footer a.btn:hover {
     opacity: 0.85;
 }
 
-/* === Responsive tweaks === */
+/* Responsive tweaks */
 @media (max-width: 768px) {
     body {
-        font-size: 0.9rem;
-    }
-
-    #page-footer {
-        font-size: 0.9rem;
-        padding: 1rem 0;
+        font-size: 0.95rem;
     }
 }
